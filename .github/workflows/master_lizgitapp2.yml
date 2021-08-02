@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'lizgitapp2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_eb557ee2d5924412960254fb0865e790 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_409b100ea1c4400a80b218a56ad63dbd }}
         package: .
